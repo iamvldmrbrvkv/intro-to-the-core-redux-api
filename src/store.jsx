@@ -2,11 +2,11 @@ import { createStore } from 'redux';
 
 // Action Creators
 export function increment() { 
-  return {type: 'increment'}
+  return { type: 'increment' }
 }
 
 export function decrement() { 
-  return {type: 'decrement'}
+  return { type: 'decrement' }
 }
 
 // Reducer / Store
